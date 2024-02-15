@@ -1,0 +1,133 @@
+
+@font-face{
+	font-family:Lineal;
+	src:url(fonts/Lineal-Bold.woff);
+	font-weight:bold;
+}
+
+@font-face{
+	font-family:Lineal;
+	src:url(fonts/Lineal-Thin.woff);
+	font-weight:thin;
+}
+
+
+body{
+	display:block;
+	color:black;
+	font-family:Lineal;
+	font-weight:thin;
+	background:pink;
+}
+
+header{
+	background:black;
+	top:0;
+	left:0;
+	color:white;
+	padding:5px;
+	text-align:center;
+	position:fixed;
+	width:100%;
+}
+
+section{
+	max-width:600px;
+	margin: 15px auto;
+	padding:15px 25px;
+	background:white;
+}
+
+#hero{
+	margin-top:150px;
+}
+
+.red-paragraph{
+	color:rgba(255, 84, 84, 1.0);
+	height:200px;
+	overflow:scroll;
+}
+
+a{
+	color:deeppink;
+	font-weight:bold;
+}
+
+a:visited{
+	color:lightpink;
+}
+
+h1{
+	color:deeppink;
+	font-size:50pt;
+	line-height:0.9;
+	margin-top:15px;
+}
+
+h2{
+	font-size:30pt;
+	margin:0;
+	text-align:center;
+}
+
+nav{
+	background:deeppink;
+	width:150px;
+	height:auto;
+	color:black;
+	font-family:comic sans ms;
+	padding:15px 50px;
+	margin:50px;
+	border-bottom:double yellow 5pt;
+	border-left:dashed yellow 5pt;
+}
+
+nav a{
+	color:yellow;
+}
+
+.img-shadow img{
+	filter: drop-shadow(0 4mm 6mm rgb(160, 0, 210));
+	display:block;
+	margin: 25px auto 50px auto;
+	width:300px;
+	position:relative;
+}
+
+.img-shadow img:hover{
+	width:400px;
+}
+
+.hidden-olivia{
+	display:none;
+	position:absolute;
+	border:solid 1px black;
+}
+
+.button{
+	background:black;
+	padding:10px;
+	color:pink;
+	width:150px;
+	text-align:center;
+	display:inline-block;
+}
+
+.button:hover{
+	font-weight:bold;
+	background:rgb(50, 50, 50, 1.0);
+	color:hotpink;
+}
+
+.button:hover + .hidden-olivia{
+	display:block;
+}
+
+#secret-buttons{
+	display:inline-block;
+}
+
+
+
+
+
